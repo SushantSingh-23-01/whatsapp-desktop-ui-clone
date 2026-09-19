@@ -90,7 +90,7 @@ body {
 	align-items: center;
 	padding: 10px 12px;
 	width: 100%;
-	transition: background-color 0.2 ease;
+	transition: background-color 0.2s ease;
 	cursor: pointer;
 
 }
@@ -168,7 +168,7 @@ body {
 	width: fit-content;
 	border-radius: 0.5rem;
 	background-color: #ffffff;
-	margin-bottm: 2rem;
+	margin-bottom: 2rem;
 }
 .chat-message.sent {
 	margin-left: auto;
