@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="assets/icons/netflix-favicon.svg">
+  <link rel="stylesheet" href="./styles/base.css">
+  <title>Whatsapp</title>
+</head>
+<body>
+  <div class="sidebar">
+	
+    <div class="header">
+      <div class="avatar">
+        <img src="./assets/svgs/empty-profile.svg" alt="">
+      </div>
+      <div class="chat-header-right">
+        <img src="./assets/svgs/circle-notch.svg" alt="">
+        <img src="./assets/svgs/chat-line.svg" alt="">
+        <img src="./assets/svgs/more-vertical.svg" alt="">
+      </div>
+    </div>
+		
+    <div class="sidebar-search">
+      <div class="sidebar-search-container">
+        <img src="./assets/svgs/search-solid.svg" alt="">
+        <input type="text" placeholder="Search or start new chat">
+      </div>
+    </div>
+		
+		<div class="sidebar-chats">
+			<div class="sidebar-chat">
+				<div class="chat-avatar">
+					<img src="./assets/svgs/empty-profile.svg" alt="">
+				</div>
+				<div class="chat-info">
+					<h4>Michael Scott</h4>
+					<p>Last Message</p>
+				</div>
+				<div class="chat-time">
+					<p>2:44 pm</p>
+				</div>
+			</div>
+			<div class="sidebar-chat">
+				<div class="chat-avatar">
+					<img src="./assets/svgs/empty-profile.svg" alt="">
+				</div>
+				<div class="chat-info">
+					<h4>Claire Ridgley</h4>
+					<p>Last Message</p>
+				</div>
+				<div class="chat-time">
+					<p>8:32 pm</p>
+				</div>
+			</div>
+			<div class="sidebar-chat">
+				<div class="chat-avatar">
+					<img src="./assets/svgs/empty-profile.svg" alt="">
+				</div>
+				<div class="chat-info">
+					<h4>Dwight Schrute</h4>
+					<p>Last Message</p>
+				</div>
+				<div class="chat-time">
+					<p>12:11 am</p>
+				</div>
+			</div>
+		</div>
+		
+  </div>
+
+  <div class="message-container">
+    <div class="header">
+      <div class="chat-title">
+        <div class="avatar">
+          <img src="./assets/svgs/empty-profile.svg" alt="">
+        </div>
+        <div class="message-header-content">
+          <h4>Michael Scott</h4>
+          <p>online</p>
+        </div>
+      </div>
+      <div class="chat-header-right">
+        <img src="./assets/svgs/search-solid.svg" alt="">
+      </div>
+    </div>
+		
+		<div class="message-content">
+			<p class="chat-message">This is a message <span class="chat-timestamp">11:33 pm</span></p>
+			<p class="chat-message sent">You sent this message <span class="chat-timestamp">11:35 pm</span></p>
+		</div>
+		
+		<div class="message-footer">
+			<img src="./assets/svgs/paperclip.svg" alt="">
+			<img src="./assets/svgs/emoji-smile.svg" alt="">
+			<input type="text" placeholder="Type a message">
+		</div>
+  </div>
+  <script type="module" src="./scripts/main.js"></script>
+</body>
+</html>
